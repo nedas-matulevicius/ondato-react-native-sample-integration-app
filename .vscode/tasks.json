@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Expo: Run Android on connected Pixel",
+			"type": "shell",
+			"command": "npx",
+			"args": [
+				"expo",
+				"run:android"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
