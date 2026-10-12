@@ -15,7 +15,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { ondatoAppearance, ondatoFonts } from "@/ondato/theme";
 
-const DEFAULT_VERIFICATION_ID = "01a12faf-cf05-76dd-93af-ed38715d56f4";
+const DEFAULT_VERIFICATION_ID = "<Your generated IDV ID>";
 
 function getErrorMessage(error: unknown) {
   return error instanceof Error ? error.message : "An unexpected error occurred.";
